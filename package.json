@@ -1,0 +1,24 @@
+{
+  "name": "@nucleoidjs/kafkajs-mock",
+  "version": "0.0.0",
+  "description": "Mocking Library for KafkaJS",
+  "homepage": "https://nucleoid.com/docs/kafkajs-mock",
+  "author": "NucTeam",
+  "repository": "github:nucleoidjs/kafkajs-mock",
+  "license": "Apache-2.0",
+  "scripts": {
+    "test": "mocha 'src/**/*.spec.js'",
+    "lint": "eslint . --ext .js"
+  },
+  "dependencies": {
+    "kafkajs": "^2.2.4",
+    "uuid": "^9.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.38.0",
+    "eslint-config-prettier": "^8.8.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "mocha": "^10.2.0",
+    "prettier": "^2.8.7"
+  }
+}
